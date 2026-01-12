@@ -4,7 +4,7 @@ authors = [
     {name = "Eder Martioli", email = "emartioli@lna.br"},
     {name = "Felipe Navarete", email = "fnavarete@lna.br"},
 ]
-description = ""
+description = "An astronomical spectroscopic data reduction package"
 readme = "README.md"
 requires-python = ">=3.8"
 keywords = ["astronomy", "pipeline", "data reduction", "spectroscopy",
@@ -20,10 +20,8 @@ dependencies = [
     "numpy",
     "matplotlib",
     "pyyaml",
-    "regions",
     "scipy",
     "uncertainties",
-    "photutils>=2.0",
 ]
 dynamic = ["version"]
 
