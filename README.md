@@ -35,9 +35,9 @@ These libraries can also be used independently to reduce data step by step, as i
 
 Download the [minidata package](https://drive.google.com/file/d/1tAVjyhYGMDcrU5sDdGCmd_f5HoazZ294/view?usp=drive_link) containing STELES/ECHARPE data to test the pipeline. You may also want to downaload the [minilcdata package](https://drive.google.com/file/d/1GJA7HB-j2YhbmLO82T1g-LNrbpYFn6OR/view?usp=drive_link) containing time series data. 
 
-See the [ECHARPE Quick Tutorial](https://github.com/edermartioli/sparc4-pipeline/blob/257cde7c85666b2cd83a76834a9f0023365393fa/docs/Manual%20da%20SPARC4%20Pipeline.pdf) (in Portuguese) to start using the pipeline quickly.
+See the [ECHARPE Quick Tutorial](https://github.com/edermartioli/sparc4-pipeline/blob/257cde7c85666b2cd83a76834a9f0023365393fa/docs/Manual%20da%20SPARC4%20Pipeline.pdf) and [STELES Quick Tutorial](https://github.com/edermartioli/sparc4-pipeline/blob/257cde7c85666b2cd83a76834a9f0023365393fa/docs/Manual%20da%20SPARC4%20Pipeline.pdf)to start using the pipeline quickly.
 
-The SPECTRUM pipeline is under development in collaboration with the scientific community. If you are interested in collaborating, send an email to the pipeline team at the following address: `spectrum-pipeline@googlegroups.com`.
+The `spectrum-pipeline` is under development in collaboration with the scientific community. If you are interested in collaborating, send an email to the pipeline team at the following address: `spectrum-pipeline@googlegroups.com`.
 
 
 
