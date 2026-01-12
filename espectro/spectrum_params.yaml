@@ -1,0 +1,26 @@
+# -----------------------------------------------------------------------------
+#   Define SPECTRUM pipeline parameters
+# -----------------------------------------------------------------------------
+
+#### DIRECTORIES #####
+ROOTDATADIR: "/Users/eder/Data/ECHARPE/minidata"
+ROOTREDUCEDIR: "/Users/eder/Data/ECHARPE/minidata/reduced"
+# Define directory tree structure for raw (to read) and reduced (to write) data location.
+# If True: $DATADIR/echacs{1,2,3,4}/night/ or if False: $DATADIR/night/echacs{1,2,3,4}/
+RAW_NIGTHS_INSIDE_CHANNELS_DIR: True
+REDUCED_NIGTHS_INSIDE_CHANNELS_DIR: False
+
+# calibration database directory
+CALIBDB_DIR: "/Users/eder/spectrum-pipeline/calibdb"
+
+# to save plot products to file. If False, it displays pop up windows, which pauses reduction
+PLOT_TO_FILE: True
+# set format by extension for plot files
+PLOT_FILE_FORMAT: ".png"
+
+# define SPARC4 channel numbers
+CHANNELS: [1, 2]
+# define SPARC4 channel labels
+CHANNEL_LABELS: ['blue','red']
+# define SPARC4 channel colors
+CHANNEL_COLORS: ["darkblue","darkred"]
