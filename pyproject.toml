@@ -1,0 +1,36 @@
+[project]
+name = "spectrum-pipeline"
+authors = [
+    {name = "Eder Martioli", email = "emartioli@lna.br"},
+    {name = "Felipe Navarete", email = "fnavarete@lna.br"},
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["astronomy", "pipeline", "data reduction", "spectroscopy",
+            "echelle", "image processing", "radial velocity", "abundances"]
+license = {text = "GPL-3.0-or-later"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    'importlib-metadata; python_version>="3.8"',
+    "astropy",
+    "astropop",
+    "numpy",
+    "matplotlib",
+    "pyyaml",
+    "regions",
+    "scipy",
+    "uncertainties",
+    "photutils>=2.0",
+]
+dynamic = ["version"]
+
+[tool.setuptools]
+packages = ['espectro']
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
