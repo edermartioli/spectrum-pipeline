@@ -1,7 +1,8 @@
 ![Alt text](Figures/spectrum-pipeline-logo.png?raw=true "Title")
 # spectrum-pipeline
 
-The `spectrum-pipeline` is a set of routines to reduce the data of long slit and echelle spectroscopic observations obtained with the [ECHARPE](https://ui.adsabs.harvard.edu/abs/2012SPIE.8446E..36D/abstract) instrument installed at the [Pico dos Dias Observatory (OPD/LNA)](https://www.gov.br/lna/pt-br/composicao-1/coast/obs/opd) and the [STELES](https://noirlab.edu/public/programs/ctio/soar-telescope/steles/) instrument installed at the [SOAR Telescope](https://noirlab.edu/public/programs/ctio/soar-telescope/). The pipeline has a main module called `echarpe_pipeline.py` or `steles_pipeline.py` to run the pipeline from the command line and allow the reduction of data from the two spectral channels automatically. The pipeline also has a file called `spectrum_params.yaml` with the pipeline execution parameters, where one can configure the reduction parameters according to the science needs. 
+`spectrum-pipeline` is a set of routines designed to reduce long-slit and échelle spectroscopic data obtained with the obtained with the [ECHARPE](https://ui.adsabs.harvard.edu/abs/2012SPIE.8446E..36D/abstract) instrument installed at the [Pico dos Dias Observatory (OPD/LNA)](https://www.gov.br/lna/pt-br/composicao-1/coast/obs/opd) and with the [STELES](https://noirlab.edu/public/programs/ctio/soar-telescope/steles/) instrument installed at the [SOAR Telescope](https://noirlab.edu/public/programs/ctio/soar-telescope/). The pipeline provides a main execution module—`echarpe_pipeline.py` or `steles_pipeline.py`—which can be run from the command line to automatically reduce data from the two spectral channels. 
+Configuration of the reduction process is handled through the `spectrum_params.yaml` file, which defines the execution parameters and allows the user to tailor the reduction settings to specific scientific requirements.
 
 # Installation
 
